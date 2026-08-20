@@ -113,6 +113,7 @@ async def main():
                 alien_y = 0
                 alien_x = randint(0, screen_width - alien_width)
                 alien_speed += .5
+                FIGHTER_STEP += .5
                 counter += 1
                 continue
 
